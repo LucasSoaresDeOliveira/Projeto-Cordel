@@ -64,7 +64,7 @@ section > p{
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     color: black;
 }
 
@@ -79,17 +79,18 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(34, 34, 34, 0.322);
+    background-color: rgba(34, 34, 34, 0.411);
     text-shadow: 1px 1px 0px black;
+    border-radius: 4px;
 }
 
 section#img01 {
-    background-image: url('../d02/imagens/background001.jpg');
+    background-image: url('imagens/background001.jpg');
     background-position: right center;
 }
 
 section#img02 {
-    background-image: url('../d02/imagens/background002.jpg');
+    background-image: url('imagens/background002.jpg');
 }
 
 footer {
